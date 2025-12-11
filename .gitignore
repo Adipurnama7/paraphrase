@@ -1,0 +1,11 @@
+# Python virtual environment
+venv/
+
+# Byte-code and temporary files
+__pycache__/
+*.pyc
+
+# Large tokenizer/model files that can be downloaded by the code
+t5_paraphrase/spiece.model
+
+t5_paraphrase/model.safetensors
