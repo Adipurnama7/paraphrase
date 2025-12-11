@@ -9,7 +9,7 @@ st.title("Paraphrase ")
 st.markdown("Masukkan kalimat → Generate → Hasil.")
 
 # ---------- Fixed decode params (tidak diubah di UI) ----------
-MODEL_PATH = "t5_paraphrase"   
+MODEL_PATH = "tuner007/t5_paraphrase" 
 MAX_INPUT_LEN = 128
 MAX_OUTPUT_LEN = 64
 NUM_BEAMS = 4
